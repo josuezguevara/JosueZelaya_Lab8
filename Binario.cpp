@@ -27,3 +27,7 @@ string Binario::tostring(){
   uno<<"[" << binario[0] << ","<<binario[1]<<","<<binario[2]<<","<<binario[3]<<"]";
   return uno.str();
 }
+
+int* Binario::getArreglo(){
+  return binario;
+}
